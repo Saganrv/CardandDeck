@@ -40,4 +40,9 @@ public class Deck {
 	public Card deal() {
 		return cards.remove(0);
 	}
+
+	public static Collection<? extends Card> subList(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
